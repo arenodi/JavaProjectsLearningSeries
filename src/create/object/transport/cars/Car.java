@@ -2,8 +2,8 @@ package create.object.transport.cars;
 
 public class Car {
 	
-	String vinNumber;
-	String plateNumber;
+	private String vinNumber;
+	private String plateNumber;
 	
 	protected Car (){}
 	

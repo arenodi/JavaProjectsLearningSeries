@@ -4,8 +4,8 @@ import create.object.transport.cars.Car;
 
 public class Model extends Car{
 	
-	String brandName;
-	String modelName;
+	private String brandName;
+	private String modelName;
 	
 	public Model(){}
 	

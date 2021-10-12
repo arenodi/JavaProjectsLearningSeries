@@ -2,7 +2,9 @@ package bank.account;
 
 import java.util.Scanner;
 
-public class BankAccount {
+import atm.machine.menu.NavigationMenu;
+
+public class BankAccount extends NavigationMenu {
 	
 	private double balance;
 	private double previousTransaction;

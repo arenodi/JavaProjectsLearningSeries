@@ -6,14 +6,13 @@ import bank.account.BankAccount;
 public class AtmMachine {
 	public static void main(String[] args) {
 		
-		NavigationMenu userMenu = new NavigationMenu();
 		BankAccount userAccount =  new BankAccount(5000, "Andre", 3214);
 		int userSelection;
 		boolean ATMFLAG = true;
 		
 		while(ATMFLAG) {
-			userMenu.mainMenuPrinter();
-			userSelection = userMenu.readUserSelection();
+			userAccount.mainMenuPrinter();
+			userSelection = userAccount.readUserSelection();
 					
 			switch(userSelection) {
 			case 1:
